@@ -1,0 +1,11 @@
+{
+  "name": "nexus-scraper",
+  "version": "1.0.0",
+  "description": "Nexus bookmarklet scraper",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.0"
+  }
+}
