@@ -1,3 +1,9 @@
+(function () {
+  'use strict';
+  alert('bookmarklet running'); // ← add this
+  if (window.__nexus_scraper_loaded__) {
+  ...
+
 // index.js — bookmarklet entry point
 // This file is minified by build.yml into bookmarklet.min.js
 
