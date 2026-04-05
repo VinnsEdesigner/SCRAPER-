@@ -3,7 +3,7 @@
 import { getToken, getSessionId, getSnippets, clearSnippets } from './storage.js';
 import { readPage } from './dom-reader.js';
 
-const BACKEND = '__BACKEND_URL__'; // replaced at build time
+const BACKEND = __BACKEND_URL__; // replaced at build time
 
 export async function syncToBackend(onStatus) {
   const token    = getToken();
