@@ -3,7 +3,7 @@
 import { getToken } from './storage.js';
 import { readPage } from './dom-reader.js';
 
-const BACKEND = '__BACKEND_URL__';
+const BACKEND = __BACKEND_URL__;
 
 /**
  * Ask the lite agent. Auto-escalates to full agent if backend signals it.
