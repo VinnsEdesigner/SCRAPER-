@@ -1,1 +1,1 @@
-javascript:void(function(){var s=document.createElement('script');s.src='https://vinnsedesigner-vinns-ai-backend.hf.space/scraper.js?v='+Date.now();s.onerror=function(){alert('Nexus: backend offline or waking up — try again in 10s')};document.head.appendChild(s);}())
+javascript:void(function(){var s=document.createElement('script');s.src='https://vinnsedesigner.github.io/scraper-/build/scraper.js?v='+Date.now();s.onerror=function(){alert('Nexus: failed to load — check GH Pages')};document.head.appendChild(s);}())
