@@ -7,7 +7,7 @@ const fs      = require('fs');
 const path    = require('path');
 
 const BACKEND_URL = process.env.BACKEND_URL || 'https://vinnsedesigner-vinns-ai-backend.hf.space';
-const SCRIPT_URL  = 'https://vinnsedesigner.github.io/scraper-/build/scraper.js';
+const SCRIPT_URL  = 'https://vinnsedesigner.github.io/SCRAPER-/build/scraper.js';
 const BUILD_DIR   = path.join(__dirname, 'build');
 const OUT_FILE    = path.join(BUILD_DIR, 'scraper.js');
 const LOADER_FILE = path.join(BUILD_DIR, 'loader.txt');
