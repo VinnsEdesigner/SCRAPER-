@@ -1,6 +1,6 @@
 // shell.js — FAB + panel shell with VENOM logo, status bar, warn banner
 
-import { injectStyles } from './styles.js';
+import { injectStyles } from './styles/index.js';
 
 const FAB_ID   = '__venom_fab__';
 const PANEL_ID = '__venom_panel__';
