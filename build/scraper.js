@@ -473,7 +473,7 @@
 }
 .vn-btn-send:active { opacity: 0.8; }
 `;function ae(){if(document.getElementById("__venom_styles__"))return;let e=document.createElement("style");e.id="__venom_styles__",e.textContent=[Q,ee,te,ne,oe,re,ie,se].join(`
-`),document.head.appendChild(e)}or;var le="__venom_fab__",D="__venom_panel__",R=!1;function de(){ae();let e=document.createElement("div");e.id=le,e.innerHTML='\u{1F577}\uFE0F<span class="vn-fab-dot"></span>';let t=document.createElement("div");return t.id=D,t.innerHTML=`
+`),document.head.appendChild(e)}var le="__venom_fab__",D="__venom_panel__",R=!1;function de(){ae();let e=document.createElement("div");e.id=le,e.innerHTML='\u{1F577}\uFE0F<span class="vn-fab-dot"></span>';let t=document.createElement("div");return t.id=D,t.innerHTML=`
     <div class="vn-drag-handle" id="vn-drag-handle"></div>
 
     <div class="vn-header">
@@ -485,7 +485,7 @@
         <span class="dot"></span><span id="vn-badge-model-text">idle</span>
       </div>
       <div class="vn-badge-pill" id="vn-badge-snippets">
-        <span class="dot"></span><span id="vn-badge-snippets-text">0 snippets</span>
+        <span class="dot"></span><span id="vn-badge-snip-text">0 snippets</span>
       </div>
       <div class="vn-badge-pill" id="vn-badge-auth">
         <span class="dot"></span><span id="vn-badge-auth-text">unauthed</span>
