@@ -99,7 +99,9 @@ async function sendMessage() {
     return;
   }
 
-  convo.push({ role: 'assistant', content: reply });
+  // Pass history WITHOUT the current message
+const historySnapshot = convo.slice(0, -1); // exclude last push
+const { reply } = await askLiteAgent(msg, getSnippets(), historySnapshot);
   addBubble('agent', reply, model);
   setStatus('green', escalated ? 'done (escalated)' : 'done');
   setBadge('model', model || 'lite', 'active');
