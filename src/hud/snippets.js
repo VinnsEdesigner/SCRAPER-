@@ -135,7 +135,7 @@ export function buildSnippetsTab() {
             REPO
             <span class="vn-badge" id="vn-repo-count">0</span>
           </div>
-          <div class="vn-snip-list" id="vn-repo-list"></div>
+          <div class="vn-snippets-list" id="vn-repo-list"></div>
         </div>
 
         <div class="vn-section">
@@ -143,7 +143,7 @@ export function buildSnippetsTab() {
             RESEARCH
             <span class="vn-badge" id="vn-research-count">0</span>
           </div>
-          <div class="vn-snip-list" id="vn-research-list"></div>
+          <div class="vn-snippets-list" id="vn-research-list"></div>
         </div>
 
         <div class="vn-section">
@@ -151,7 +151,7 @@ export function buildSnippetsTab() {
             IMAGE
             <span class="vn-badge" id="vn-image-count">0</span>
           </div>
-          <div class="vn-snip-list" id="vn-image-list"></div>
+          <div class="vn-snippets-list" id="vn-image-list"></div>
         </div>
 
         <div class="vn-section">
@@ -159,7 +159,7 @@ export function buildSnippetsTab() {
             FILE
             <span class="vn-badge" id="vn-file-count">0</span>
           </div>
-          <div class="vn-snip-list" id="vn-file-list"></div>
+          <div class="vn-snippets-list" id="vn-file-list"></div>
         </div>
 
       </div>
@@ -317,8 +317,8 @@ function openModal(snippet) {
           : `<div class="vn-modal-no-thumb">🖼️ No preview</div>`
         }
         <div class="vn-modal-image-meta">
-          ${mimeStr ? `<span class="vn-snip-type">${escapeHtml(mimeStr)}</span>` : ''}
-          ${sizeStr ? `<span class="vn-snip-type">${escapeHtml(sizeStr)}</span>` : ''}
+          ${mimeStr ? `<span class="vn-snippet-type">${escapeHtml(mimeStr)}</span>` : ''}
+          ${sizeStr ? `<span class="vn-snippet-type">${escapeHtml(sizeStr)}</span>` : ''}
         </div>
       </div>
       ${cached
@@ -348,8 +348,8 @@ function openModal(snippet) {
     body.innerHTML = `
       <div class="vn-modal-file-meta">
         <span class="vn-file-icon">${icon}</span>
-        ${ext    ? `<span class="vn-snip-type">.${escapeHtml(ext)}</span>` : ''}
-        ${sizeStr ? `<span class="vn-snip-type">${escapeHtml(sizeStr)}</span>` : ''}
+        ${ext    ? `<span class="vn-snippet-type">.${escapeHtml(ext)}</span>` : ''}
+        ${sizeStr ? `<span class="vn-snippet-type">${escapeHtml(sizeStr)}</span>` : ''}
       </div>
       <div class="vn-modal-file-url">${escapeHtml(snippet.url || '')}</div>
       <pre class="vn-modal-file-content">${escapeHtml(
