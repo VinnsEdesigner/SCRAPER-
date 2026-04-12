@@ -562,7 +562,7 @@ export function renderSnippets() {
   setCount('vn-file-count',     files.length);
 
   // Update HUD badge (total)
-  setBadge('snippets', `${snippets.length} snippets`,
+  setBadge('snip', `${snippets.length} snippets`,
     snippets.length > 0 ? 'active' : '');
 
   // Render each section
