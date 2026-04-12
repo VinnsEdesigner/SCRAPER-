@@ -79,8 +79,9 @@ async function sendMessage() {
   const msg   = input?.value?.trim();
   if (!msg) return;
 
-  // Add to local convo history BEFORE sending
-  convo.push({ role: 'user', content: msg });
+  // Pass history WITHOUT the current message
+const historySnapshot = convo.slice(0, -1); // exclude last push
+const { reply } = await askLiteAgent(msg, getSnippets(), historySnapshot);
   addBubble('user', msg);
   input.value = '';
 
