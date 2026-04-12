@@ -80,7 +80,8 @@ async function sendMessage() {
   if (!msg) return;
 
   // Add to local convo history BEFORE sending
-  convo.push({ role: 'user', content: msg });
+ // Pass history WITHOUT the current message
+const historySnapshot = convo.slice(0, -1);
   addBubble('user', msg);
   input.value = '';
 
