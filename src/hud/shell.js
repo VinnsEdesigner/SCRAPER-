@@ -1,4 +1,4 @@
-// shell.js — FAB + panel shell with VENOM logo, status bar, warn banner
+or// shell.js — FAB + panel shell with VENOM logo, status bar, warn banner
 
 import { injectStyles } from './styles/index.js';
 
@@ -28,7 +28,7 @@ export function buildShell() {
         <span class="dot"></span><span id="vn-badge-model-text">idle</span>
       </div>
       <div class="vn-badge-pill" id="vn-badge-snippets">
-        <span class="dot"></span><span id="vn-badge-snip-text">0 snippets</span>
+        <span class="dot"></span><span id="vn-badge-snippets-text">0 snippets</span>
       </div>
       <div class="vn-badge-pill" id="vn-badge-auth">
         <span class="dot"></span><span id="vn-badge-auth-text">unauthed</span>
