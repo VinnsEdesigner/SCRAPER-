@@ -538,7 +538,7 @@
 
     <div class="vn-bottom-area">
       <div class="vn-input-row">
-        <textarea class="vn-input" id="vn-agent-input" placeholder="ask about this page..." rows="2"></textarea>
+        <textarea class="vn-input" id="vn-agent-input" placeholder="\u{1F9D1}\u200D\u{1F4BB} anything to ask \u{1F642}" rows="2"></textarea>
         <button class="vn-btn-send" id="vn-send-btn">\u2191</button>
       </div>
       <button class="vn-btn vn-btn-full" id="vn-suggest-btn">suggest prompt</button>
