@@ -34,7 +34,7 @@ export function buildAgentTab() {
     <div class="vn-convo" id="vn-convo">
       <div class="vn-msg vn-msg-agent">
         <div class="vn-msg-label">NExY</div>
-        <span>Ask me anything about this page...</span>
+        <span>Anything buddy😏..</span>
       </div>
     </div>
 
