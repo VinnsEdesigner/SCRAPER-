@@ -48,7 +48,7 @@ export function buildAgentTab() {
 
     <div class="vn-bottom-area">
       <div class="vn-input-row">
-        <textarea class="vn-input" id="vn-agent-input" placeholder="ask about this page..." rows="2"></textarea>
+        <textarea class="vn-input" id="vn-agent-input" placeholder="🧑‍💻 anything to ask 🙂" rows="2"></textarea>
         <button class="vn-btn-send" id="vn-send-btn">↑</button>
       </div>
       <button class="vn-btn vn-btn-full" id="vn-suggest-btn">suggest prompt</button>
