@@ -24,7 +24,7 @@ jobs:
 
       - name: Build scraper bundle
         env:
-          BACKEND_URL: https://vinnsedesigner-vinns-ai-backend.hf.space
+          BACKEND_URL: https://backe-nd.onrender.com
         run: npm run build
 
       - name: Commit build output
