@@ -20,5 +20,5 @@ Bookmarklet injected into any browser tab. Captures text selections, stages snip
 
 ```bash
 npm install
-BACKEND_URL=https://your-hf-space.hf.space npm run build
+BACKEND_URL=https://backe-nd.onrender.com npm run build
 ```
